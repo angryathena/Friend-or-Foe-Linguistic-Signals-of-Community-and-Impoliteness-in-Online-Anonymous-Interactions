@@ -2,10 +2,6 @@ import pytumblr
 import json
 
 client = pytumblr.TumblrRestClient(
-  'LvExrjPbytfSFurnuBOkZOUKtnXy3hQLa2f6BJxbPZmUXKW0AP',
-  'zDAVR2q2J6QFuuhWSmgpVvlT3vrdkUsOqBEaPcIqYxCUyUItu7',
-  'F3socjVeLCwEBS5NeCw6zKd0yHNkyTtzt2eoWwKkrs482rV5cd',
-  '7CwEefhr7VRdUEH58eN4Aqjnkl1oFuJ8FJbMYEhIXEc9W9z5dm'
 )
 
 def getPosts(limit = 370):
