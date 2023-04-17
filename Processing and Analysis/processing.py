@@ -28,7 +28,7 @@ PRESENT = ['VBB', 'VBZ', 'VHB', 'VHZ', 'VVB', 'VDB', 'VVZ', 'VDZ']
 PAST = ['VBD', 'VHD', 'VVD', 'VDD']
 FUTURE = ['VM0']
 
-p = PerspectiveAPI("AIzaSyDXURFrLd6Zh94csGMhWWzuupl_EHqYkso")
+p = PerspectiveAPI("")
 
 def get_tags(text):
     tags = tagger.tag_text(text)
